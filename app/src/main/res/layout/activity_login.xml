@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_text"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:textColor="@color/purple_500"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Login_email"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Email"
+        android:textColorHint="@color/black"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Login_password"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColorHint="@color/black"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:id="@+id/img_view_showhidepass"
+            android:layout_alignParentRight="true"
+            android:layout_toStartOf="@id/Login_password"/>
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Login_btn"
+        android:text="login"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have a account ?"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#621DDD"
+        android:text="Register Here"
+        android:textStyle="bold"
+        android:id="@+id/registernowbtn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="#621DDD"
+        android:text="Forgot Password ?"
+        android:id="@+id/forgot_password_btn"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload.Upload_pdf_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:id="@+id/editText_filename"
+            android:hint="Enter a name for your File"
+            android:inputType="text"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Pdf"
+            android:id="@+id/button_upload_pdf"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_status"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="20sp"
+            android:text="No File Selected"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_View_uploads"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="110dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="View Uploads"
+            android:textColor="@color/purple_500"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

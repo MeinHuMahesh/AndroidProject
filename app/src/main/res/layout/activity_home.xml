@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Home">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_view"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Home_upload_Button"
+        android:text="Upload PDF"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/home_view"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_view_profile"
+        android:text="View Your Profile"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/Home_upload_Button"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".upload.UploadActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectbutton"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:text="Select"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectbutton"
+        android:layout_centerHorizontal="true"
+        android:hint="File not selected"
+        android:id="@+id/textview1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadbutton"
+        android:layout_below="@id/textview1"
+        android:layout_centerHorizontal="true"
+        android:text="UPload"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewuploads"
+        android:layout_below="@id/uploadbutton"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="View Uploads"/>
+
+
+
+
+</RelativeLayout>

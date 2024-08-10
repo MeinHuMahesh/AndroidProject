@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Documentor</string>
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>others</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>Select Year</item>
+        <item>FY</item>
+        <item>SY</item>
+        <item>TY</item>
+    </string-array>
+    <string-array name="stream_array">
+        <item>Select Stream</item>
+        <item>BSc IT</item>
+        <item>BAF</item>
+        <item>BMS</item>
+        <item>BBI</item>
+    </string-array>
+</resources>

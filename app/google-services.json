@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "624757605192",
+    "firebase_url": "https://documentor-9f39e-default-rtdb.firebaseio.com",
+    "project_id": "documentor-9f39e",
+    "storage_bucket": "documentor-9f39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624757605192:android:5b6c688f71ac974b71297d",
+        "android_client_info": {
+          "package_name": "com.example.documentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624757605192-7e6kev1jonjiq1l7h16qf6gsli2aagp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA8FzL846CfO5--_vw7v-9CcR54MFkFY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624757605192-7e6kev1jonjiq1l7h16qf6gsli2aagp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
